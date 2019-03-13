@@ -1,0 +1,20 @@
+{
+  "name": "skeleton",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "~4.15.5",
+    "hat": "0.0.3",
+    "joi": "^11.1.1",
+    "knex": "^0.13.0",
+    "lodash": "^4.17.4",
+    "pg": "^7.3.0"
+  },
+  "scripts": {
+    "start": "nodemon ./application/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
